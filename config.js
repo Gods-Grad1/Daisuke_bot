@@ -27,7 +27,7 @@ mongoose.set('strictQuery', true);
 
 let gg = process.env.MODS;
 if (!gg) {
-  gg = "277752205";   // You can Change this number //
+  gg = "27767752205";   // You can Change this number //
 }
 
 // -------------------------------------------------------------- //
@@ -40,7 +40,7 @@ global.prefa = process.env.PREFIX || "-";
 global.tenorApiKey =
   process.env.TENOR_API_KEY || "SlmbDtGOx2TcTvov21KibTIxcA7gEsZRDW47oSFm"; // paste Your own Api Key..
 global.packname = process.env.PACKNAME || `👹 𝕐𝕒𝕜𝕒ᵐᵈ`;
-global.author = process.env.AUTHOR || "by: 𝖄𝖆𝖐𝖆𝖘𝖍𝖎";
+global.author = process.env.AUTHOR || "by: グレーディ ケー (GRADI)";
 global.port = process.env.PORT || "8000";
 
 module.exports = {
